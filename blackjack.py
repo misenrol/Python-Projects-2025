@@ -125,12 +125,12 @@ def winner():
         print("The Dealer wins. You lost -10$.")
     elif dealer_total > 21:
         print("You win! The Dealer busts. You won +10$")
-        money += 10
+        money += 20
     elif dealer_total > player_total:
         print("The Dealer wins. You lost.")
     else:
         print("You win! You won 10$")
-        money += 10
+        money += 20
 
 while Found:
     cards()
